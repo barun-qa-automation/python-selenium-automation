@@ -9,7 +9,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from config.config import Config
 
 
-@@pytest.fixture
+@pytest.fixture
 def driver():
     options = Options()
     options.add_argument("--start-maximized")
